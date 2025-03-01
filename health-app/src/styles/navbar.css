@@ -1,0 +1,40 @@
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #6098bb;
+    max-width: 100%;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Align navigation items to the right */
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  /* Style navigation links */
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .navbar-nav .nav-link:hover {
+    color: hwb(210 97% 2%) !important; /* Blue on hover */
+  }
+  
+  /* Logo Styling */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Add spacing between logo and text */
+  .navbar-brand img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  

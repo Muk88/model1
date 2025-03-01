@@ -1,0 +1,77 @@
+
+.container {
+    max-width: 95%;
+    margin: auto;
+  }
+  
+
+  .text-primary {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  /* Disease Prediction Box */
+  .bg-light {
+    background-color: hsl(211, 32%, 81%) !important;
+    border-left: 5px solid #28a745;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .bg-light:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Styling for Each Section */
+  .result-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect: Lift the card and add shadow */
+  .result-card:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Text Colors for Sections */
+  .text-danger {
+    color: red;
+  }
+  
+  .text-warning {
+    color: goldenrod;
+  }
+  
+  .text-primary {
+    color: blue;
+  }
+  
+  .text-success {
+    color: green;
+  }
+  
+  /* Grid Layout for Mobile Responsiveness */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .col-md-3 {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
